@@ -1,0 +1,374 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.background {
+
+    width: 91rem;
+    height: 45rem;
+    left: -8px;
+    top: -8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    filter: brightness(100%);
+}
+
+.imgbg {
+    background: url(./images/image\ 13.jpg);
+    width: 92rem;
+    height: 43rem;
+    left: -8px;
+    top: -20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    filter: brightness(40%);
+    z-index: 0;
+}
+
+.navbar {
+    width: 91rem;
+    height: 6.375rem;
+    top: 0rem;
+    left: -8px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    left: 0rem;
+}
+
+.navtitle {
+    position: absolute;
+    top: .5rem;
+    left: 4.625rem;
+    font-family: 'Cormorant SC';
+    font-size: 1.5rem;
+    color: white;
+    opacity: 5;
+    z-index: 2;
+}
+
+.est {
+    position: absolute;
+    top: 2.8125rem;
+    left: 5.6875rem;
+    font-family: Inter;
+    font-size: .75rem;
+    color: white;
+    z-index: 2;
+}
+
+.rooms {
+    position: absolute;
+    top: 1.25rem;
+    left: 45rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 1;
+}
+
+.facilities {
+    position: absolute;
+    top: 1.25rem;
+    left: 55.5625rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 1;
+}
+
+.reservations {
+    position: absolute;
+    top: 1.25rem;
+    left: 66.25rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 1;
+}
+
+.about {
+    position: absolute;
+    top: 1.25rem;
+    left: 79rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 1;
+}
+
+
+.ourfac {
+    /* Our Facilities */
+
+    position: absolute;
+    width: 613rem;
+    height: 7.25rem;
+    left: 25.8125rem;
+    top: 10.9375rem;
+
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 7.25rem;
+
+    color: #FFFFFF;
+
+
+}
+
+.poolbox {
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 57.6875rem;
+    height: 37.6875rem;
+    right: 23.1875rem;
+    top: 45.625rem;
+
+    background: #000000;
+    border-radius: 4.0625rem;
+
+}
+
+.poolimg {
+    position: absolute;
+    width: 37.625rem;
+    height: 26.4325rem;
+    left: -6.25rem;
+    top: 5.625rem;
+    border-radius: 1.5625rem;
+
+}
+
+.pooltitle {
+    /* Pool & Bar */
+
+    position: absolute;
+    width: 10.8125rem;
+    height: 2.75rem;
+    left: 39rem;
+    top: 9.6875rem;
+
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+
+}
+
+.pooltext {
+    position: absolute;
+    width: 20rem;
+    height: 12.6875rem;
+    left: 34.4375rem;
+    top: 13.8125rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.fitnessbox {
+    /* Rectangle 8 */
+
+    position: absolute;
+    width: 57.6875rem;
+    height: 37.6875rem;
+    right: 9.125rem;
+    top: 88.875rem;
+
+    background: #000000;
+    border-radius: 4.0625rem;
+
+}
+
+.fitnessimg {
+    /* image 13 */
+
+    position: absolute;
+    width: 37.625rem;
+    height: 26.4931rem;
+    left: 26.1875rem;
+    top: 5.625rem;
+    border-radius: 1.5625rem;
+
+}
+
+.fitnesstitle {
+    top: 9.0625rem;
+    left: 6rem;
+    /* Fitness Center */
+
+    position: absolute;
+    width: 14.75rem;
+    height: 2.75rem;
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.fitnesstext {
+    top: 13.8125rem;
+    left: 2.9375rem;
+    /* Our Fitness Center opens 24 hour a day. With state-of-the-art equipments, our gym provides the perfect environment to stay active and energized during your stay. */
+
+    position: absolute;
+    width: 20rem;
+    height: 12.6875rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.spabox {
+    /* Rectangle 13 */
+
+    position: absolute;
+    width: 57.6875rem;
+    height: 37.6875rem;
+    right: 23.1875rem;
+    top: 132.125rem;
+
+    background: #000000;
+    border-radius: 65px;
+
+}
+
+.spaimg {
+    top: 5.6875rem;
+    left: -6.25rem;
+    /* image 13 */
+
+    position: absolute;
+    width: 37.625rem;
+    height: 26.3719rem;
+    border-radius: 1.5625rem;
+}
+
+.spatitle {
+    top: 9.625rem;
+    left: 36.25rem;
+    position: absolute;
+    width: 16.1875rem;
+    height: 2.75rem;
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #FFFFFF;
+}
+
+.spatext {
+    top: 13.8125rem;
+    left: 34.4375rem;
+    position: absolute;
+    width: 20rem;
+    height: 14.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.totop {
+    position: absolute;
+    top: 171.875rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Cormorant SC';
+    font-size: 2.25rem;
+    color: white;
+    opacity: 1;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 8.0625rem;
+    padding-right: 8.0625rem;
+    background-color: #000;
+    border-radius: 1.5625rem;
+    border: 1px solid white;
+}
+
+
+.footer {
+    position: absolute;
+    width: 90rem;
+    height: 12.3125rem;
+    left: 0px;
+    top: 184.375rem;
+    background: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 27.5625rem;
+    height: 1.8125rem;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3.75rem;
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: smaller;
+    }
+
+}
